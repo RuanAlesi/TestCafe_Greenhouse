@@ -1,0 +1,18 @@
+{
+  "name": "testcafe_greenhouse",
+  "version": "1.0.0",
+  "description": "Greenhouse assignment",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruan Alesi",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe-reporter-html": "^1.4.6",
+    "testcafe-reporter-spec": "^2.1.1"
+  }
+}
