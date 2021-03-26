@@ -2,6 +2,7 @@ import {Selector} from 'testcafe';
 
 class LoginPage {
     constructor () {
+        this.url = 'https://manage-test.lemonpi.io/r/login';
         this.emailInput = Selector('[data-testid="email"]');
         this.passWordInput = Selector('[data-testid="password"]');
         this.submitButton = Selector('[data-testid="submit"]');
